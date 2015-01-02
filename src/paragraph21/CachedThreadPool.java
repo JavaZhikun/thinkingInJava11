@@ -11,7 +11,8 @@ public class CachedThreadPool
 		for(int i = 0; i < 5; i++)
 			exec.execute(new LiftOff());
 			
-		exec.shutdown();	
+		exec.shutdown();
+		System.out.println("我也要全新的生活");
 	}
 
 }
