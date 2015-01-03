@@ -13,6 +13,7 @@ public class CachedThreadPool
 			
 		exec.shutdown();
 		System.out.println("我也要全新的生活");
+		System.out.println("达内科技牛逼啊！");
 	}
 
 }
