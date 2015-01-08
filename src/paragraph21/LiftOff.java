@@ -24,6 +24,8 @@ public class LiftOff implements Runnable
 			System.out.println(status());
 			Thread.yield();
 			System.out.println("陈可昕我想和你一起跑步！");
+			
+			System.out.println("我似乎开始找到了自己的方向");
 		}
 	}
 
